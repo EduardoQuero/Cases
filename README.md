@@ -8,6 +8,10 @@ Bem-vindo ao meu repositório de projetos de Data Science! Aqui você encontrar�
 
 Este projeto envolve uma análise detalhada do mercado de acomodações em Londres, utilizando dados do Airbnb. Explore tópicos como a distribuição de tipos de acomodação, avaliações por bairro, tendências de preços e muito mais. [Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/An%C3%A1lise_Dados_Airbnb_Londres)
 
+### [Previsão de Renda](https://github.com/EduardoQuero/Cases/tree/main/Previsao_Renda)
+
+Este repositório contém o código fonte e os arquivos relacionados ao segundo projeto do curso "Profissão: Cientista de Dados" da EBAC (Escola Britânica de Artes Criativas). O projeto visa desenvolver um modelo preditivo para previsão de renda, utilizando técnicas e conceitos aprendidos ao longo do curso.[Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/Previsao_Renda)
+
 ### [Outros Projetos Em Breve...]
 
 Novos projetos serão adicionados a esta coleção em breve. Continue acompanhando!
