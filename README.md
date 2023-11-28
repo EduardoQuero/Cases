@@ -1,0 +1,32 @@
+# Meus Projetos de Data Science 🚀
+
+Bem-vindo ao meu repositório de projetos de Data Science! Aqui você encontrará análises exploratórias e insights extraídos de diversos conjuntos de dados. Fique à vontade para explorar e se inspirar nos projetos listados abaixo.
+
+## Projetos Disponíveis
+
+### [Análise de Dados de Acomodações em Londres 🏠📊](https://github.com/EduardoQuero/Cases/tree/main/An%C3%A1lise_Dados_Airbnb_Londres)
+
+Este projeto envolve uma análise detalhada do mercado de acomodações em Londres, utilizando dados do Airbnb. Explore tópicos como a distribuição de tipos de acomodação, avaliações por bairro, tendências de preços e muito mais. [Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/An%C3%A1lise_Dados_Airbnb_Londres)
+
+### [Outros Projetos Em Breve...]
+
+Novos projetos serão adicionados a esta coleção em breve. Continue acompanhando!
+
+## Como Utilizar Este Repositório
+
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/EduardoQuero/Cases.git
+   ```
+
+2. **Explore os Projetos:**
+   - Navegue pelos diretórios individuais para encontrar os projetos de seu interesse.
+
+3. **Leia os READMEs:**
+   - Cada projeto possui um README detalhado com informações sobre o conjunto de dados, instruções de uso e resultados da análise.
+
+## Contato
+
+Para mais informações ou colaborações, sinta-se à vontade para entrar em contato comigo: [eduardokero@yahoo.com.br](mailto:eduardokero@yahoo.com.br).
+
+Sinta-se à vontade para explorar, contribuir ou utilizar esses projetos como referência para seus próprios estudos de Data Science. 🌐📊
