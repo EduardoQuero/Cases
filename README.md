@@ -1,4 +1,4 @@
-# Análise de Dados InsideAirbnb - Londres
+# Análise de Dados InsideAirbnb - Londres 🏠
 
 Este projeto realiza uma análise exploratória dos dados do InsideAirbnb para a cidade de Londres. O InsideAirbnb fornece informações sobre propriedades e aluguéis em várias cidades ao redor do mundo, oferecendo insights valiosos para viajantes e proprietários de imóveis.
 
@@ -7,34 +7,54 @@ Este projeto realiza uma análise exploratória dos dados do InsideAirbnb para a
 Antes de executar o código, certifique-se de ter as bibliotecas necessárias instaladas. Você pode instalá-las executando:
 
 ```bash
-pip install pandas matplotlib seaborn
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+from PIL import Image
+import requests
+import io
 ```
 
-## Estrutura do Projeto
+**Exploração de Dados:**
+🔍 Explorei o conjunto de dados, identifiquei colunas relevantes e compreendi sua estrutura.
 
-O projeto está estruturado da seguinte forma:
+**Perguntas e Respostas:**
 
-1. **Exploração de Dados**: Explorou o conjunto de dados, identificou colunas relevantes e compreendeu sua estrutura.
+1. **Pergunta 1: Qual é a média dos preços das acomodações em diferentes bairros?**
+   - **Resposta 1:** A média dos preços das acomodações varia significativamente entre diferentes bairros em Londres. O gráfico de barras acima apresenta a média de preços (£) para cada bairro.
 
-2. **Perguntas e Respostas**:
+2. **Pergunta 2: Qual é a distribuição dos tipos de acomodação (room_type)?**
+   - **Resposta 2:** A distribuição dos tipos de acomodação em Londres mostra como os diferentes tipos estão representados no conjunto de dados.
 
-   - **Pergunta 1**: Qual é a média dos preços das acomodações em diferentes bairros?
-   - **Resposta 1**: A média dos preços das acomodações varia significativamente entre diferentes bairros em Londres. O gráfico de barras acima apresenta a média de preços (£) para cada bairro.
+3. **Pergunta 3: Qual é a média de avaliações por bairro?**
+   - **Resposta 3:** O gráfico de barras mostra a média de avaliações por bairro em Londres. Bairros com barras mais altas têm uma média maior de avaliações, indicando uma potencial popularidade ou atratividade para os visitantes.
 
-   - **Pergunta 2**: Qual é a distribuição dos tipos de acomodação (room_type)?
-   - **Resposta 2**: A distribuição dos tipos de acomodação em Londres mostra como os diferentes tipos estão representados no conjunto de dados.
+4. **Pergunta 4: Qual é o número médio de noites mínimas exigidas por bairro?**
+   - **Resposta 4:** O gráfico de barras apresenta o número médio de noites mínimas exigidas por bairro em Londres. Bairros com barras mais altas indicam um requisito médio maior de noites mínimas para as acomodações nesses locais.
 
-   [Continue com perguntas e respostas]
+5. **Pergunta 5: Qual é a relação entre o preço e o número de avaliações?**
+   - **Resposta 5:** O gráfico de dispersão mostra a relação entre o preço das acomodações e o número de avaliações recebidas. A correlação entre preço e número de avaliações é calculada e apresentada como um número. Se o número for positivo, há uma correlação positiva, indicando que acomodações mais caras recebem mais avaliações.
 
-3. **Conclusões**: Destacou insights gerais e conclusões obtidos durante a análise.
+6. **Pergunta 6: Como a disponibilidade varia ao longo do ano?**
+   - **Resposta 6:** O gráfico de linha mostra como a disponibilidade média das acomodações varia ao longo do ano. Cada ponto no gráfico representa um mês, e a linha conecta esses pontos, indicando a tendência ao longo dos meses. Essa visualização pode ajudar a identificar padrões sazonais na disponibilidade das acomodações.
 
-4. **Instruções de Execução**: Forneceu instruções claras sobre como executar o código e reproduzir os resultados.
+7. **Pergunta 7: Existe uma tendência sazonal nos preços das acomodações?**
+   - **Resposta 7:** O gráfico de linha apresenta a tendência sazonal nos preços médios das acomodações ao longo do ano. Cada ponto no gráfico representa um mês, e a linha conecta esses pontos, mostrando como os preços variam sazonalmente.
 
-5. **Contribuição**: Explicou como outros desenvolvedores podem contribuir para o projeto.
+8. **Pergunta 8: Qual é a distribuição da disponibilidade ao longo do ano?**
+   - **Resposta 8:** O gráfico de linha apresenta a distribuição da disponibilidade média das acomodações ao longo do ano. Cada ponto no gráfico representa um mês, e a linha conecta esses pontos, mostrando como a disponibilidade varia sazonalmente.
 
-6. **Licença**: Incluiu a licença sob a qual o código está disponibilizado.
+9. **Pergunta 9: Qual é a relação entre o preço e a localização (latitude e longitude)?**
+   - **Resposta 9:** O gráfico de dispersão mostra a relação entre o preço das acomodações e sua localização geográfica. Cada ponto no gráfico representa uma acomodação, com a cor indicando o preço. Isso permite uma visualização espacial dos preços, destacando áreas com preços mais altos ou mais baixos.
 
-## Resultados e Conclusões
+10. **Pergunta 10: Qual é a média de preços para diferentes tipos de acomodação (room_type)?**
+    - **Resposta 10:** Selecionando colunas relevantes, o gráfico de dispersão mostra a relação entre o preço das acomodações e sua localização geográfica. Cada ponto no gráfico representa uma acomodação, com a cor indicando o preço. Essa visualização destaca áreas com preços mais altos ou mais baixos.
+
+**Conclusão**
+📊 Ao analisar o conjunto de dados das acomodações em Londres, alguns insights valiosos podem ser destac
+
+ados: 
 
 A análise do conjunto de dados proporcionou insights valiosos sobre o mercado de hospedagem em Londres. Alguns resultados notáveis incluem:
 
@@ -73,5 +93,3 @@ Se deseja contribuir para este projeto:
 Este projeto é disponibilizado sob a [licença MIT](https://opensource.org/licenses/MIT).
 
 ---
-
-Adapte este README conforme necessário para fornecer informações específicas sobre o seu projeto. Certifique-se de incluir gráficos, análises e insights relevantes para tornar o README informat
