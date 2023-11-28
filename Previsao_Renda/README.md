@@ -1,92 +1,73 @@
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&logo=Jupyter&logoColor=white)](hhttps://github.com/EduardoQuero/previsao-renda/blob/main/ebac-projeto02-previsao_eduardo-quero.ipynb)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=Streamlit&logoColor=white)](https://eduardo-quero-ebac-projeto02-previsao-renda.streamlit.app/)
+# Projeto de Concessão de Cartões de Crédito 🌐💳
 
+## Introdução
 
-
----
-
-# Profissão: Cientista de Dados - Projeto #02
-
-![EBAC Logo](https://raw.githubusercontent.com/EduardoQuero/Profissao-Cientista-de-Dados/main/Cientista%20de%20Dados/ebac-course-utils/media/logo/ebac_logo-data_science.png)
-
-### [**Projeto #02 - Previsão de Renda**](https://github.com/EduardoQuero/previsao-renda/blob/main/ebac-projeto02-previsao_eduardo-quero.ipynb)
-
-**Autor:** [Eduardo Quero](https://www.linkedin.com/in/eduardo-quero/)
-
----
-
-## Visão Geral
-
-Este repositório contém o código fonte e os arquivos relacionados ao segundo projeto do curso "Profissão: Cientista de Dados" da EBAC (Escola Britânica de Artes Criativas). O projeto visa desenvolver um modelo preditivo para previsão de renda, utilizando técnicas e conceitos aprendidos ao longo do curso.
-
----
-
-## Estrutura do Projeto
-
-O projeto está estruturado da seguinte forma:
-
-- **Notebook Principal:** [`ebac-projeto02-previsao_eduardo-quero.ipynb`](https://github.com/EduardoQuero/previsao-renda/blob/main/ebac-projeto02-previsao_eduardo-quero.ipynb)
-  - Desenvolvimento do modelo, análise exploratória e documentação do processo.
-
-- **Aplicação Web - Streamlit:**
-  - Acesse a [Previsão de Renda](https://eduardo-quero-ebac-projeto02-previsao-renda.streamlit.app/) para interagir com o modelo.
-
----
-
-## Descrição do Projeto
-
-Este projeto aborda a construção de um modelo preditivo para identificar o risco de inadimplência em concessões de cartões de crédito. Utilizando técnicas de ciência de dados, o objetivo é desenvolver um modelo que possa auxiliar o mutuário a tomar decisões informadas sobre crédito.
-
----
+Olá, pessoal! Bem-vindos ao meu projeto de concessão de cartões de crédito. Aqui, desenvolvemos um modelo preditivo para identificar o risco de inadimplência, tornando as decisões financeiras mais seguras e informadas.
 
 ## Etapas do Projeto
 
-### 1. Entendimento do Negócio (CRISP-DM - Fase 1)
+### 1. Entendimento do Negócio (CRISP-DM)
 
-O projeto inicia com o entendimento do problema, estabelecendo objetivos de negócio e modelagem.
+Meu objetivo é criar um modelo preditivo que avalie o risco de inadimplência de clientes que solicitam cartões de crédito. Vamos juntos fornecer uma ferramenta valiosa para auxiliar os mutuários em suas decisões financeiras.
 
-### 2. Entendimento e Preparação dos Dados (CRISP-DM - Fases 2 e 3)
+### 2. Entendimento e Preparação dos Dados (CRISP-DM)
 
-- Importação de bibliotecas e leitura dos dados.
-- Pré-processamento dos dados, tratando valores duplicados e ajustando formatos.
-- Análise univariada e bivariada para compreensão dos dados.
+#### Dicionário de Dados
 
-### 3. Modelagem e Avaliação dos Resultados (CRISP-DM - Fases 4 e 5)
+- **sexo**: Gênero do cliente (M/F).
+- **posse_de_veiculo**: Possui veículo (Y/N).
+- **posse_de_imovel**: Possui imóvel (Y/N).
+- **qtd_filhos**: Quantidade de filhos.
+- **tipo_renda**: Tipo de renda.
+- **educacao**: Nível de educação.
+- **estado_civil**: Estado civil.
+- **tipo_residencia**: Tipo de residência.
+- **idade**: Idade em anos.
+- **tempo_emprego**: Tempo de emprego em anos.
+- **possui_celular**: Possui celular (1 = sim, 0 = não).
+- **possui_fone_comercial**: Possui telefone comercial (1 = sim, 0 = não).
+- **possui_fone**: Possui telefone (1 = sim, 0 = não).
+- **possui_email**: Possui e-mail (1 = sim, 0 = não).
+- **qt_pessoas_residencia**: Quantidade de pessoas na residência.
+- **mau**: Indicador de mau pagador (True = mau, False = bom).
 
-- Divisão da base em treino e teste.
-- Implementação de modelos, como RandomForestClassifier e DecisionTreeClassifier.
-- Avaliação da acurácia e análise de matrizes de confusão.
+### 3. Análise Exploratória de Dados
 
-### 4. Implantação (CRISP-DM - Fase 6)
+Vamos explorar juntos! Distribuição da variável resposta (mau), gráficos de barras para variáveis categóricas e histogramas para variáveis numéricas estão no cardápio.
 
-Nesta etapa, o modelo é colocado em uso, geralmente sendo implementado em um motor de crédito para tomada de decisões automatizada.
+### 4. Pré-processamento dos Dados
 
----
+Tratamento de dados faltantes, remoção de duplicatas e conversão de variáveis categóricas em dummy variables para deixar tudo tinindo!
 
-## Tecnologias Utilizadas
+### 5. Modelagem Preditiva 🚀
 
-- **Linguagem de Programação:** Python
-- **Bibliotecas Principais:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-- **Ferramenta de Desenvolvimento:** Jupyter Notebook
-- **Aplicação Web:** Streamlit
+Vamos ao ponto forte! Criei e treinei um modelo Random Forest Classifier. A acurácia está na casa dos 70%, o que é promissor. Matriz de confusão, estamos de olho em você!
 
----
+### 6. Conclusão
 
-## Como Executar a Aplicação Web
+Concluímos que nosso modelo tem uma capacidade moderada de prever o risco de inadimplência. Para a próxima rodada, sugiro otimizar o modelo, explorar outras técnicas e considerar mais dados para fazer bonito!
 
-1. Acesse a [Previsão de Renda](https://previsao-renda.streamlit.app/) para interagir com o modelo em uma aplicação web.
+## Instruções de Uso 🛠️
 
+1. **Requisitos:**
+   - Python 3.x
+   - Bibliotecas: numpy, pandas, matplotlib, seaborn, scikit-learn
 
-https://github.com/EduardoQuero/previsao-renda/assets/104538741/bbc840a1-f66f-4b2b-91b0-c1bf49a20139
+2. **Configuração do Ambiente:**
+   - Instale as bibliotecas necessárias: `pip install numpy pandas matplotlib seaborn scikit-learn`
 
----
+3. **Execução do Código:**
+   - Execute o script Python `projeto_cartao_credito.py` para reproduzir a análise e treinar o modelo.
 
-## Licença
+4. **Resultados:**
+   - Os resultados do modelo, incluindo métricas de desempenho, serão exibidos no console.
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
+## Contribuições 🤝
 
----
+Contribuições são super bem-vindas! Se encontrar problemas ou tiver sugestões de melhorias, por favor, abra uma issue neste repositório.
 
-**Nota:** Este projeto é parte integrante do curso "Profissão: Cientista de Dados" oferecido pela EBAC. O conteúdo e a estrutura podem estar sujeitos a alterações com base nas orientações do curso.
+## Licença 📜
+
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais detalhes.
 
 ---
