@@ -1,5 +1,4 @@
-```markdown
-# Análise de Dados de Acomodações em Londres
+# Análise de Dados de Acomodações em Londres 🏠📊
 
 ## Visão Geral
 
@@ -39,16 +38,16 @@ Este projeto envolve a análise de um conjunto de dados contendo informações s
 
 ## Descrição dos Arquivos
 
-- `Python_Data_Scientist_PT_BR.ipynb`: Jupyter Notebook contendo o código Python para análise de dados.
-- `Python_Data_Scientist_EN_US.ipynb`: Jupyter Notebook contendo o código Python para análise de dados (em inglês).
-- `london-map.jpg`: Arquivo de imagem usado para visualizar a relação entre preço e localização.
+- [`Python_Data_Scientist_PT_BR.ipynb`](https://github.com/EduardoQuero/Cases/blob/main/Python_Data_Scientist_PT_BR.ipynb): Jupyter Notebook contendo o código Python para análise de dados.
+- [`Python_Data_Scientist_EN_US.ipynb`](https://github.com/EduardoQuero/Cases/blob/main/Python_Data_Scientist_EN_US.ipynb): Jupyter Notebook contendo o código Python para análise de dados (em inglês).
+- [`london-map.jpg`](link_para_a_imagem): Arquivo de imagem usado para visualizar a relação entre preço e localização.
 
 ## Instruções
 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-nome/analise-acomodacoes.git
+   git clone https://github.com/EduardoQuero/Cases.git
    ```
 
 2. Abra e execute os Jupyter Notebooks [`Python_Data_Scientist_PT_BR.ipynb`](https://github.com/EduardoQuero/Cases/blob/main/Python_Data_Scientist_PT_BR.ipynb) e [`Python_Data_Scientist_EN_US.ipynb`](https://github.com/EduardoQuero/Cases/blob/main/Python_Data_Scientist_EN_US.ipynb) para análises detalhadas e visualizações.
@@ -63,7 +62,7 @@ Este projeto envolve a análise de um conjunto de dados contendo informações s
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
-Sinta-se à vontade para explorar, analisar e adaptar o código conforme suas necessidades!
+Sinta-se à vontade para explorar, analisar, e adaptar o código conforme suas necessidades!
 
 ## Fonte de Dados
 
@@ -87,7 +86,6 @@ Agradecimentos especiais ao Inside Airbnb por disponibilizar o conjunto de dados
 
 ## Contato
 
-Para mais informações, entre em contato em [eduardokero@yahoo.com.br].
+Para mais informações, entre em contato em [eduardokero@yahoo.com.br](mailto:eduardokero@yahoo.com.br).
 
-Boa análise!
-```
+Boa análise! 🚀✨
