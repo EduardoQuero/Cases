@@ -1,95 +1,93 @@
-# Análise de Dados InsideAirbnb - Londres 🏠
+```markdown
+# Análise de Dados de Acomodações em Londres
 
-Este projeto realiza uma análise exploratória dos dados do InsideAirbnb para a cidade de Londres. O InsideAirbnb fornece informações sobre propriedades e aluguéis em várias cidades ao redor do mundo, oferecendo insights valiosos para viajantes e proprietários de imóveis.
+## Visão Geral
 
-## Pré-requisitos
+Este projeto envolve a análise de um conjunto de dados contendo informações sobre acomodações em Londres. O conjunto de dados abrange vários aspectos, como tipos de acomodações, avaliações por bairro, tendências de preços, e muito mais. O objetivo é extrair insights valiosos sobre o setor de hospitalidade em Londres.
 
-Antes de executar o código, certifique-se de ter as bibliotecas necessárias instaladas. Você pode instalá-las executando:
+## Principais Questões Exploradas
 
-```bash
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
-from PIL import Image
-import requests
-import io
-```
+1. **Distribuição dos Tipos de Acomodação:**
+   - Examinar a variedade de tipos de acomodações disponíveis em Londres.
 
-**Exploração de Dados:**
-🔍 Explorei o conjunto de dados, identifiquei colunas relevantes e compreendi sua estrutura.
+2. **Avaliações por Bairro:**
+   - Analisar o número médio de avaliações por bairro para identificar áreas populares.
 
-**Perguntas e Respostas:**
+3. **Requisitos Mínimos de Noites por Bairro:**
+   - Compreender o número médio de noites mínimas exigidas por bairro para entender as políticas de reserva.
 
-1. **Pergunta 1: Qual é a média dos preços das acomodações em diferentes bairros?**
-   - **Resposta 1:** A média dos preços das acomodações varia significativamente entre diferentes bairros em Londres. O gráfico de barras acima apresenta a média de preços (£) para cada bairro.
+4. **Relação entre Preço e Número de Avaliações:**
+   - Explorar a relação entre preço e número de avaliações para entender o comportamento dos hóspedes.
 
-2. **Pergunta 2: Qual é a distribuição dos tipos de acomodação (room_type)?**
-   - **Resposta 2:** A distribuição dos tipos de acomodação em Londres mostra como os diferentes tipos estão representados no conjunto de dados.
+5. **Disponibilidade ao Longo do Ano:**
+   - Analisar a disponibilidade de acomodações para identificar períodos de alta demanda ou baixa ocupação.
 
-3. **Pergunta 3: Qual é a média de avaliações por bairro?**
-   - **Resposta 3:** O gráfico de barras mostra a média de avaliações por bairro em Londres. Bairros com barras mais altas têm uma média maior de avaliações, indicando uma potencial popularidade ou atratividade para os visitantes.
+6. **Tendências Sazonais nos Preços:**
+   - Investigar tendências sazonais nos preços para ajustar estratégias de precificação.
 
-4. **Pergunta 4: Qual é o número médio de noites mínimas exigidas por bairro?**
-   - **Resposta 4:** O gráfico de barras apresenta o número médio de noites mínimas exigidas por bairro em Londres. Bairros com barras mais altas indicam um requisito médio maior de noites mínimas para as acomodações nesses locais.
+7. **Distribuição da Disponibilidade ao Longo do Ano:**
+   - Compreender como a disponibilidade se distribui ao longo do ano para gerenciar a ocupação.
 
-5. **Pergunta 5: Qual é a relação entre o preço e o número de avaliações?**
-   - **Resposta 5:** O gráfico de dispersão mostra a relação entre o preço das acomodações e o número de avaliações recebidas. A correlação entre preço e número de avaliações é calculada e apresentada como um número. Se o número for positivo, há uma correlação positiva, indicando que acomodações mais caras recebem mais avaliações.
+8. **Relação entre Preço e Localização Geográfica:**
+   - Analisar a relação entre preço e localização (latitude e longitude) para identificar padrões de preços geograficamente.
 
-6. **Pergunta 6: Como a disponibilidade varia ao longo do ano?**
-   - **Resposta 6:** O gráfico de linha mostra como a disponibilidade média das acomodações varia ao longo do ano. Cada ponto no gráfico representa um mês, e a linha conecta esses pontos, indicando a tendência ao longo dos meses. Essa visualização pode ajudar a identificar padrões sazonais na disponibilidade das acomodações.
+9. **Análise de Outliers:**
+   - Identificar e analisar outliers no conjunto de dados para obter insights sobre propriedades únicas ou exceções de preços.
 
-7. **Pergunta 7: Existe uma tendência sazonal nos preços das acomodações?**
-   - **Resposta 7:** O gráfico de linha apresenta a tendência sazonal nos preços médios das acomodações ao longo do ano. Cada ponto no gráfico representa um mês, e a linha conecta esses pontos, mostrando como os preços variam sazonalmente.
+10. **Impacto Econômico:**
+    - Avaliar o impacto econômico do setor de hospedagem, considerando fatores como receita total e ocupação média.
 
-8. **Pergunta 8: Qual é a distribuição da disponibilidade ao longo do ano?**
-   - **Resposta 8:** O gráfico de linha apresenta a distribuição da disponibilidade média das acomodações ao longo do ano. Cada ponto no gráfico representa um mês, e a linha conecta esses pontos, mostrando como a disponibilidade varia sazonalmente.
+## Descrição dos Arquivos
 
-9. **Pergunta 9: Qual é a relação entre o preço e a localização (latitude e longitude)?**
-   - **Resposta 9:** O gráfico de dispersão mostra a relação entre o preço das acomodações e sua localização geográfica. Cada ponto no gráfico representa uma acomodação, com a cor indicando o preço. Isso permite uma visualização espacial dos preços, destacando áreas com preços mais altos ou mais baixos.
+- `Python_Data_Scientist_PT_BR.ipynb`: Jupyter Notebook contendo o código Python para análise de dados.
+- `Python_Data_Scientist_EN_US.ipynb`: Jupyter Notebook contendo o código Python para análise de dados (em inglês).
+- `london-map.jpg`: Arquivo de imagem usado para visualizar a relação entre preço e localização.
 
-10. **Pergunta 10: Qual é a média de preços para diferentes tipos de acomodação (room_type)?**
-    - **Resposta 10:** Selecionando colunas relevantes, o gráfico de dispersão mostra a relação entre o preço das acomodações e sua localização geográfica. Cada ponto no gráfico representa uma acomodação, com a cor indicando o preço. Essa visualização destaca áreas com preços mais altos ou mais baixos.
+## Instruções
 
-**Conclusão**
-📊 Ao analisar o conjunto de dados das acomodações em Londres, alguns insights valiosos podem ser destac
+1. Clone o repositório:
 
-ados: 
+   ```bash
+   git clone https://github.com/seu-nome/analise-acomodacoes.git
+   ```
 
-A análise do conjunto de dados proporcionou insights valiosos sobre o mercado de hospedagem em Londres. Alguns resultados notáveis incluem:
+2. Abra e execute os Jupyter Notebooks [`Python_Data_Scientist_PT_BR.ipynb`](https://github.com/EduardoQuero/Cases/blob/main/Python_Data_Scientist_PT_BR.ipynb) e [`Python_Data_Scientist_EN_US.ipynb`](https://github.com/EduardoQuero/Cases/blob/main/Python_Data_Scientist_EN_US.ipynb) para análises detalhadas e visualizações.
 
-- **Distribuição dos Tipos de Acomodação**: A diversidade de tipos de acomodação oferece opções para diversos perfis de viajantes.
+## Dependências
 
-- **Avaliações por Bairro**: Alguns bairros têm uma média maior de avaliações, indicando potencial popularidade entre os hóspedes.
-
-- **Requisitos Mínimos de Noites por Bairro**: A compreensão dos requisitos médios de noites mínimas por bairro fornece insights sobre a flexibilidade de reserva em diferentes áreas.
-
-- **Relação entre Preço e Número de Avaliações**: A análise indica uma correlação neutra entre o preço das acomodações e o número de avaliações.
-
-- **Disponibilidade ao Longo do Ano**: A visualização da disponibilidade média ao longo do ano destaca períodos de alta ou baixa demanda.
-
-- **Tendências Sazonais nos Preços**: A tendência sazonal nos preços ajuda a ajustar estratégias de precificação com base em períodos de alta ou baixa demanda.
-
-- **Distribuição da Disponibilidade ao Longo do Ano**: A análise da distribuição da disponibilidade ao longo do ano oferece insights sobre padrões sazonais.
-
-- **Relação entre Preço e Localização Geográfica**: O mapa de dispersão revela áreas geográficas com preços mais altos ou mais baixos.
-
-- **Análise de Outliers**: Identificar e analisar outliers pode fornecer informações sobre propriedades únicas ou exceções de preços.
-
-- **Impacto Econômico**: Avaliar o impacto econômico do setor de hospedagem considera fatores como receita total, ocupação média e distribuição geográfica.
-
-## Contribuições
-
-Se deseja contribuir para este projeto:
-
-1. Faça um fork do repositório.
-2. Crie um branch para a sua contribuição (`git checkout -b feature/sua-contribuicao`).
-3. Faça commits das suas alterações (`git commit -am 'Adicione sua contribuição'`).
-4. Faça push para o branch (`git push origin feature/sua-contribuicao`).
-5. Abra um pull request.
+- Python 3
+- Jupyter Notebook
+- Bibliotecas Python necessárias (Pandas, Matplotlib, Seaborn, etc.)
 
 ## Licença
 
-Este projeto é disponibilizado sob a [licença MIT](https://opensource.org/licenses/MIT).
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
----
+Sinta-se à vontade para explorar, analisar e adaptar o código conforme suas necessidades!
+
+## Fonte de Dados
+
+O conjunto de dados usado nesta análise foi obtido do Inside Airbnb. Você pode encontrar o conjunto de dados [aqui](http://data.insideairbnb.com/united-kingdom/england/london/2023-09-06/visualisations/listings.csv).
+
+## Visualizações
+
+As visualizações geradas a partir da análise podem ser encontradas nos Jupyter Notebooks `Python_Data_Scientist_PT_BR.ipynb` e `Python_Data_Scientist_EN_US.ipynb`. Sinta-se à vontade para explorar gráficos e insights para obter uma compreensão mais profunda dos dados.
+
+## Resultados
+
+A análise revelou insights valiosos sobre o mercado de acomodações em Londres, fornecendo informações sobre tendências de preços, bairros populares, e variações sazonais. Utilize as descobertas para tomar decisões informadas relacionadas a estratégias de reserva, ajustes de preços, e muito mais.
+
+## Contribuições
+
+Se encontrar problemas, tiver sugestões, ou quiser contribuir para este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Agradecimentos
+
+Agradecimentos especiais ao Inside Airbnb por disponibilizar o conjunto de dados usado nesta análise.
+
+## Contato
+
+Para mais informações, entre em contato em [eduardokero@yahoo.com.br].
+
+Boa análise!
+```
