@@ -6,12 +6,28 @@ Bem-vindo ao meu repositório de projetos de Data Science! Aqui você encontrar�
 
 ### [Análise de Dados de Acomodações em Londres 🏠📊](https://github.com/EduardoQuero/Cases/tree/main/An%C3%A1lise_Dados_Airbnb_Londres)
 
-Este projeto envolve uma análise detalhada do mercado de acomodações em Londres, utilizando dados do Airbnb. Explore tópicos como a distribuição de tipos de acomodação, avaliações por bairro, tendências de preços e muito mais. [Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/An%C3%A1lise_Dados_Airbnb_Londres)
+Este projeto envolve uma análise detalhada do mercado de acomodações em Londres, utilizando dados do Airbnb. 
+
+Explore tópicos como a distribuição de tipos de acomodação, avaliações por bairro, tendências de preços e muito mais. 
+
+[Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/An%C3%A1lise_Dados_Airbnb_Londres)
 
 ### [Previsão de Renda](https://github.com/EduardoQuero/Cases/tree/main/Previsao_Renda)
 
-Este repositório contém o código fonte e os arquivos relacionados ao segundo projeto do curso "Profissão: Cientista de Dados" da EBAC (Escola Britânica de Artes Criativas). O projeto visa desenvolver um modelo preditivo para previsão de renda, utilizando técnicas e conceitos aprendidos ao longo do curso.[Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/Previsao_Renda)
+Este repositório contém o código fonte e os arquivos relacionados ao segundo projeto do curso "Profissão: Cientista de Dados" da EBAC (Escola Britânica de Artes Criativas). 
 
+O projeto visa desenvolver um modelo preditivo para previsão de renda, utilizando técnicas e conceitos aprendidos ao longo do curso.
+
+[Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/Previsao_Renda)
+
+
+### [Explorando Dados de Crédito](https://github.com/EduardoQuero/Cases/tree/main/Explorando_Dados_de_Cr%C3%A9dito)
+
+Aqui, desenvolvemos um modelo preditivo para identificar o risco de inadimplência, tornando as decisões financeiras mais seguras e informadas.
+
+Meu objetivo é criar um modelo preditivo que avalie o risco de inadimplência de clientes que solicitam cartões de crédito. Vamos juntos fornecer uma ferramenta valiosa para auxiliar os mutuários em suas decisões financeiras.
+
+[Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/Explorando_Dados_de_Cr%C3%A9dito)
 ### [Outros Projetos Em Breve...]
 
 Novos projetos serão adicionados a esta coleção em breve. Continue acompanhando!
