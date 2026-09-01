@@ -1,52 +1,34 @@
-# Meus Projetos de Data Science 🚀
+# Portfólio de Data Science
 
-Bem-vindo ao meu repositório de projetos de Data Science! Aqui você encontrará análises exploratórias e insights extraídos de diversos conjuntos de dados. Fique à vontade para explorar e se inspirar nos projetos listados abaixo.
+Coleção de projetos de análise de dados e aprendizado de máquina desenvolvidos por Eduardo Quero.
 
-## Projetos Disponíveis
+## Projetos
 
-### [Análise de Dados de Acomodações em Londres 🏠📊](https://github.com/EduardoQuero/Cases/tree/main/An%C3%A1lise_Dados_Airbnb_Londres)
+| Projeto | Objetivo | Formato |
+|---|---|---|
+| [Acomodações do Airbnb em Londres](./Análise_Dados_Airbnb_Londres) | Explorar localização, preços, avaliações e tipos de acomodação | Notebooks em português e inglês |
+| [Risco de crédito](./Explorando_Dados_de_Crédito) | Investigar características associadas à inadimplência | Notebook e dataset |
+| [Previsão de renda](./Previsao_Renda) | Estimar renda a partir de dados cadastrais | Notebook e aplicação Streamlit |
 
-Este projeto envolve uma análise detalhada do mercado de acomodações em Londres, utilizando dados do Airbnb. 
+## Como usar
 
-Explore tópicos como a distribuição de tipos de acomodação, avaliações por bairro, tendências de preços e muito mais. 
+```bash
+git clone https://github.com/EduardoQuero/Cases.git
+cd Cases
+python -m venv .venv
+```
 
-[Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/An%C3%A1lise_Dados_Airbnb_Londres)
+Ative o ambiente virtual, entre no diretório do projeto desejado e siga o respectivo `README.md`. Para abrir os notebooks:
 
-### [Previsão de Renda](https://github.com/EduardoQuero/Cases/tree/main/Previsao_Renda)
+```bash
+pip install jupyter pandas numpy matplotlib seaborn scikit-learn
+jupyter notebook
+```
 
-Este repositório contém o código fonte e os arquivos relacionados ao segundo projeto do curso "Profissão: Cientista de Dados" da EBAC (Escola Britânica de Artes Criativas). 
+## Organização
 
-O projeto visa desenvolver um modelo preditivo para previsão de renda, utilizando técnicas e conceitos aprendidos ao longo do curso.
+Cada projeto mantém seus próprios dados, notebooks, código e documentação. Os conjuntos de dados são usados para fins educacionais e os resultados não devem ser aplicados diretamente em decisões de produção.
 
-[Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/Previsao_Renda)
+## Autor
 
-
-### [Explorando Dados de Crédito](https://github.com/EduardoQuero/Cases/tree/main/Explorando_Dados_de_Cr%C3%A9dito)
-
-Aqui, desenvolvemos um modelo preditivo para identificar o risco de inadimplência, tornando as decisões financeiras mais seguras e informadas.
-
-Meu objetivo é criar um modelo preditivo que avalie o risco de inadimplência de clientes que solicitam cartões de crédito. Vamos juntos fornecer uma ferramenta valiosa para auxiliar os mutuários em suas decisões financeiras.
-
-[Veja o Projeto](https://github.com/EduardoQuero/Cases/tree/main/Explorando_Dados_de_Cr%C3%A9dito)
-### [Outros Projetos Em Breve...]
-
-Novos projetos serão adicionados a esta coleção em breve. Continue acompanhando!
-
-## Como Utilizar Este Repositório
-
-1. **Clone o Repositório:**
-   ```bash
-   git clone https://github.com/EduardoQuero/Cases.git
-   ```
-
-2. **Explore os Projetos:**
-   - Navegue pelos diretórios individuais para encontrar os projetos de seu interesse.
-
-3. **Leia os READMEs:**
-   - Cada projeto possui um README detalhado com informações sobre o conjunto de dados, instruções de uso e resultados da análise.
-
-## Contato
-
-Para mais informações ou colaborações, sinta-se à vontade para entrar em contato comigo: [eduardokero@yahoo.com.br](mailto:eduardokero@yahoo.com.br).
-
-Sinta-se à vontade para explorar, contribuir ou utilizar esses projetos como referência para seus próprios estudos de Data Science. 🌐📊
+[Eduardo Quero](https://www.linkedin.com/in/eduardo-quero/)
